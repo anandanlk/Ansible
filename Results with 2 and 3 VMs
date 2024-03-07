@@ -1,0 +1,16 @@
+Nginx server with 1,2,4 and 8 instances
+
+Results with 1 Master and 1 Workers (VMs)
+Instances
+	1		Req/Sec     0.89k    36.17     0.99k    70.75%"
+	2		Req/Sec     1.21k   278.60     1.67k    67.83%"
+	3		Req/Sec     1.06k   172.60     1.33k    67.67%"
+	4		Req/Sec     1.07k   175.03     1.33k    64.83%"
+
+
+Results with 1 Master and 2 Workers (VMs)
+Instances
+	1		Req/Sec     662.17  32.75      760.00   78.25%"
+	2		Req/Sec     1.07k   371.46     1.67k    61.33%"
+	3		Req/Sec     1.25k   387.64     2.21k    50.75%"
+	4		Req/Sec     0.97k   234.90     1.32k    55.83%"
